@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio - Desarrollador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+</head>
+
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-container">
+            <div class="loading-logo">
+                <div class="glitch-text" data-text="&lt;/&gt;">
+                    &lt;/&gt;
+                </div>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="loading-text">Cargando Portfolio...</div>
+            <div class="loading-percentage">0%</div>
+        </div>
+        <div class="loading-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+
+    <div class="bg-effects">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text glitch-effect" data-text="&lt;/&gt; DEV">&lt;/&gt; DEV</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-text="Inicio">Inicio</a>
+                <a href="#about" class="nav-link" data-text="Sobre mí">Sobre mí</a>
+                <a href="#projects" class="nav-link" data-text="Proyectos">Proyectos</a>
+                <a href="#skills" class="nav-link" data-text="Habilidades">Habilidades</a>
+                <a href="#contact" class="nav-link" data-text="Contacto">Contacto</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-greeting fade-in-up">
+                <span class="greeting-text">Hola, soy</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="name-text glitch-text" data-text="Benjamín Arias">Benjamín Arias</span>
+            </h1>
+            <div class="hero-subtitle">
+                <span class="typing-text"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-description fade-in-up">
+                Creo experiencias digitales excepcionales con código limpio y diseño futurista
+            </p>
+            <div class="hero-buttons fade-in-up">
+                <a href="#projects" class="btn btn-primary neon-btn">
+                    <span>Ver Proyectos</span>
+                    <div class="btn-glow"></div>
+                </a>
+                <a href="#contact" class="btn btn-secondary neon-btn neon-btn-outline">
+                    <span>Contactar</span>
+                    <div class="btn-glow"></div>
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hologram-container">
+                <div class="hologram-code">
+                    <div class="code-lines">
+                        <div class="code-line animate-code">public class Developer</div>
+                        <div class="code-line animate-code">{</div>
+                        <div class="code-line animate-code"> public string Name { get; set; } = "Benjamin Arias";</div>
+                        <div class="code-line animate-code"> public List&lt;string&gt; Skills { get; set; } = new
+                            List&lt;string&gt; { "C#", ".NET 9.0", "SQL Server" };</div>
+                        <div class="code-line animate-code"> public string Passion { get; set; } = "Coding";</div>
+                        <div class="code-line animate-code">}</div>
+                    </div>
+                </div>
+                <div class="hologram-effects">
+                    <div class="scan-line"></div>
+                    <div class="glitch-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title glitch-title" data-text="Sobre mí">Sobre mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="fade-in-left">
+                        Desarrollador de software con más de 2 años de experiencia en .NET, diseño de bases de datos y
+                        arquitecturas orientadas a servicios (SOA/API). Especializado en integraciones seguras con APIs
+                        de terceros como ClaveÚnica y FirmaGob, enfocado en proyectos que modernizan procesos y mejoran
+                        la eficiencia operativa.
+                    </p>
+                    <p class="fade-in-left delay-1">
+                        Mi enfoque se centra en escribir código limpio, mantenible y escalable,
+                        mientras creo interfaces de usuario intuitivas y atractivas con un toque futurista.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat neon-card">
+                            <span class="stat-number counter" data-target="3">0</span>
+                            <span class="stat-label">Años de experiencia</span>
+                            <div class="stat-glow"></div>
+                        </div>
+                        <div class="stat neon-card">
+                            <span class="stat-number counter" data-target="15">0</span>
+                            <span class="stat-label">Proyectos completados</span>
+                            <div class="stat-glow"></div>
+                        </div>
+                        <div class="stat neon-card">
+                            <span class="stat-number counter" data-target="8">0</span>
+                            <span class="stat-label">Tecnologías dominadas</span>
+                            <div class="stat-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title glitch-title" data-text="Mis Proyectos">Mis Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card neon-card hover-float">
+                    <div class="project-image">
+                        <img src="/Images/SecretForge.png" alt="Proyecto 1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link pulse-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <div class="ripple"></div>
+                                </a>
+                                <a href="#" class="project-link pulse-btn">
+                                    <i class="fab fa-github"></i>
+                                    <div class="ripple"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="scan-effect"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title glow-text">Secret Forge</h3>
+                        <p class="project-description">
+                            Secret Forge es un sistema de gestión que encripta y almacena de forma segura claves,
+                            contraseñas y certificados en una bóveda de seguridad centralizada.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag neon-tag">C#</span>
+                            <span class="tech-tag neon-tag">SQL Server</span>
+                            <span class="tech-tag neon-tag">.NET 9.0</span>
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+
+                <div class="project-card neon-card hover-float">
+                    <div class="project-image">
+                        <img src="/Images/SkyNetMail.png" alt="Proyecto 2">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link pulse-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <div class="ripple"></div>
+                                </a>
+                                <a href="#" class="project-link pulse-btn">
+                                    <i class="fab fa-github"></i>
+                                    <div class="ripple"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="scan-effect"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title glow-text">SkyNetMail</h3>
+                        <p class="project-description">
+                            Desarrollé SkyNetMail, un sistema centralizado de envío de correos electrónicos que recibe
+                            solicitudes de múltiples sistemas y envía mensajes con plantillas personalizadas según el
+                            origen de la solicitud.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag neon-tag">C#</span>
+                            <span class="tech-tag neon-tag">SQL Server</span>
+                            <span class="tech-tag neon-tag">.NET 9.0</span>
+
+
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+
+                <div class="project-card neon-card hover-float">
+                    <div class="project-image">
+                        <img src="/Images/SCEN.png" alt="Proyecto 3">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link pulse-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <div class="ripple"></div>
+                                </a>
+                                <a href="#" class="project-link pulse-btn">
+                                    <i class="fab fa-github"></i>
+                                    <div class="ripple"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="scan-effect"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title glow-text">Sistema Control Entrega Navidad</h3>
+                        <p class="project-description">
+                            SCEN es una app y plataforma web que convierte la entrega de regalos navideños en una
+                            experiencia mágica, interactiva y rastreable para familias, niños y empresas.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag neon-tag">C#</span>
+                            <span class="tech-tag neon-tag">.NET CORE</span>
+                            <span class="tech-tag neon-tag">JavaScript</span>
+                            <span class="tech-tag neon-tag">Chart.js</span>
+                            <span class="tech-tag neon-tag">SignalR</span>
+                            <span class="tech-tag neon-tag">SQL Server</span>
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+
+                <div class="project-card neon-card hover-float">
+                    <div class="project-image">
+                        <img src="/Images/SRPSG.png" alt="Proyecto 4">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link pulse-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <div class="ripple"></div>
+                                </a>
+                                <a href="#" class="project-link pulse-btn">
+                                    <i class="fab fa-github"></i>
+                                    <div class="ripple"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="scan-effect"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title glow-text">Sistema Registro de Procesos SP</h3>
+                        <p class="project-description">
+                            Formulario institucional destinado al registro, control y seguimiento de los procedimientos realizados por el personal de Seguridad Pública.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag neon-tag">Python</span>
+                            <span class="tech-tag neon-tag">SQL Server</span>
+                            <span class="tech-tag neon-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title glitch-title" data-text="Habilidades">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-category neon-card hover-tilt">
+                    <h3 class="category-title glow-text">Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item pulse-skill">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-item pulse-skill">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-item pulse-skill">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+
+                <div class="skill-category neon-card hover-tilt">
+                    <h3 class="category-title glow-text">Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item pulse-skill">
+                            <i class="devicon-csharp-plain"></i>
+                            <span>C#</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-item pulse-skill">
+                            <i class="devicon-dotnetcore-plain"></i>
+                            <span>.Net Core</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-item pulse-skill">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-item pulse-skill">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-item pulse-skill">
+                            <i class="devicon-microsoftsqlserver-plain"></i>
+                            <span>SQL Server</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-item pulse-skill">
+                            <i class="devicon-oracle-original"></i>
+                            <span>Oracle DB</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+
+                <div class="skill-category neon-card hover-tilt">
+                    <h3 class="category-title glow-text">Herramientas</h3>
+                    <div class="skills-list">
+                        <div class="skill-item pulse-skill">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-item pulse-skill">
+                            <i class="devicon-gitlab-plain"></i>
+                            <span>GitLab</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                     
+                        <div class="skill-item pulse-skill">
+                            <i class="devicon-visualstudio-plain"></i>
+                            <span>Visual Studio</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-item pulse-skill">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-item pulse-skill">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                            <div class="skill-glow"></div>
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title glitch-title" data-text="Contacto">Contacto</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="glow-text">¡Conectemos!</h3>
+                    <p>
+                        Estoy siempre abierto a discutir nuevas oportunidades,
+                        proyectos innovadores o simplemente charlar sobre tecnología futurista.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method hover-glow">
+                            <i class="fas fa-envelope"></i>
+                            <span>be.ariaso21@gmail.com</span>
+                        </div>
+                        <div class="contact-method hover-glow">
+                            <i class="fas fa-phone"></i>
+                            <span>+56 (9) 4545-3692</span>
+                        </div>
+                        <div class="contact-method hover-glow">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Santiago RM, Chile</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a target="_blank" href="https://wa.me/56945453692?text=Hola%2C%20me%20gustar%C3%ADa%20ponerme%20en%20contacto%20contigo%20para%20conversar%20sobre%20oportunidades%20laborales%20y%20revisar%20tu%20portafolio." class="social-link pulse-btn">
+                            <i class="fab fa-whatsapp"></i>
+                            <div class="ripple"></div>
+                        </a>
+                        <a target="_blank" href="www.linkedin.com/in/benjaminariasoyaneder" class="social-link pulse-btn">
+                            <i class="fab fa-linkedin"></i>
+                            <div class="ripple"></div>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form neon-card">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" required class="neon-input">
+                        <div class="input-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Tu email" required class="neon-input">
+                        <div class="input-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Asunto" required class="neon-input">
+                        <div class="input-glow"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tu mensaje" rows="5" required
+                            class="neon-input"></textarea>
+                        <div class="input-glow"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary neon-btn submit-btn">
+                        <span>Enviar Mensaje</span>
+                        <div class="btn-glow"></div>
+                        <div class="loading-spinner"></div>
+                    </button>
+                    <div class="card-glow"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="glow-text">&copy; 2025 Benjamin Arias. Todos los derechos reservados.</p>
+            <div class="footer-glow"></div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("jqaEZJ3OK_-mQW0Dl"); // lo obtienes en emailjs.com
+  })();
+</script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
